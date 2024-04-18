@@ -1,0 +1,170 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5266152024269104
+    }
+  },
+  {
+    "text": "E cần tư vấn ngành học kế toán hệ vừa học vừa làm",
+    "intent": "private_consultation",
+    "intent_prediction": {
+      "name": "further_education",
+      "confidence": 0.5836712718009949
+    }
+  },
+  {
+    "text": "em muốn tìm hiểu thêm về ngành này của trường mình và tiêu chí của ngành",
+    "intent": "admissions_info",
+    "intent_prediction": {
+      "name": "cirriculum_introduction",
+      "confidence": 0.9776142835617065
+    }
+  },
+  {
+    "text": "Em chào thầy/cô. Thầy/cô cho em hỏi: Hiện tại em đã có bằng tốt nghiệp cao đẳng chính quy ngành Kỹ thuật điện tử viễn thống. Em có nhu cầu muốn liên thông trái ngành sang ngành công nghệ thông tin ở trường mình thì có được không ạ? Mong thầy/cô giúp em giải đáp thắc mắc ạ. Em cảm ơn ạ!",
+    "intent": "admissions_info",
+    "intent_prediction": {
+      "name": "Updating",
+      "confidence": 0.5400569438934326
+    }
+  },
+  {
+    "text": "Ngành này có xét học bạ ko ạ và xét những khối nào ạ",
+    "intent": "admissions_info",
+    "intent_prediction": {
+      "name": "review_transcripts",
+      "confidence": 0.9989535212516785
+    }
+  },
+  {
+    "text": "Trường cho em hỏi trường có xét học bạ nghành quản trị kinh doanh không ạ",
+    "intent": "admissions_info",
+    "intent_prediction": {
+      "name": "review_transcripts",
+      "confidence": 0.8443666100502014
+    }
+  },
+  {
+    "text": "Anh / chị cho em hỏi là ở phần xét tuyển bằng ĐGNL CỦA ĐHQGHN ấy ạ Có ghi 2 phong bì là gồm 1 phong bì để kết quả 1 phong bì để phiếu đăng ký hay là cả 2 bỏ chubg vào 1 phong bì ạ",
+    "intent": "admissions_info",
+    "intent_prediction": {
+      "name": "Updating",
+      "confidence": 0.968909740447998
+    }
+  },
+  {
+    "text": "E cần tư vấn thêm",
+    "intent": "admissions_info",
+    "intent_prediction": {
+      "name": "private_consultation",
+      "confidence": 0.9514732956886292
+    }
+  },
+  {
+    "text": "Mình muốn tư vấn học ngành thiết kế đồ họa",
+    "intent": "admissions_info",
+    "intent_prediction": {
+      "name": "cirriculum_introduction",
+      "confidence": 0.9634727239608765
+    }
+  },
+  {
+    "text": "22 điểm có vào ngành luật kinh tế đc ko ạ",
+    "intent": "admissions_info",
+    "intent_prediction": {
+      "name": "admission_score",
+      "confidence": 0.9828568696975708
+    }
+  },
+  {
+    "text": "Em có bằng cao đẳng chính quy ngành Quản Trị Kinh Doanh, em muốn liên thông lên Đại học ngành Ngôn Ngữ Anh.Hiện tại nhà trường có đang mở khóa liên thông ĐH Ngôn Ngữ Anh trái ngành không ạ, cho em xin thông tin về tuyển sinh nhé.",
+    "intent": "admissions_info",
+    "intent_prediction": {
+      "name": "Updating",
+      "confidence": 0.7609796524047852
+    }
+  },
+  {
+    "text": "Em muốn học từ xa thì thời gian học ,học phí như thế nào ạ",
+    "intent": "cirriculum_introduction",
+    "intent_prediction": {
+      "name": "further_education",
+      "confidence": 0.7096847891807556
+    }
+  },
+  {
+    "text": "Em đang là sinh viên và muốn học ngành ngôn ngữ anh hệ đào tạo từ xa thì cho em hỏi là sẽ đào tạo trong bao lâu ạ?",
+    "intent": "cirriculum_introduction",
+    "intent_prediction": {
+      "name": "Updating",
+      "confidence": 0.5098651051521301
+    }
+  },
+  {
+    "text": "3. Thí sinh dự tuyển theo hình thức xét học bạ và điểm vẽ của trường khác thì thời gian nộp hồ sơ từ ngày nào đến ngày nào ạ? Có phải đăng kí thi năng khiếu nữa ko ạ? Nộp trực tiếp hay online hay gửi bưu điện ạ?",
+    "intent": "Updating",
+    "intent_prediction": {
+      "name": "review_transcripts",
+      "confidence": 0.8405072689056396
+    }
+  },
+  {
+    "text": "Dạ admin ơi mình muốn hỏi trường mình có hệ từ xa đúng không ạ? Vậy ngành ngôn ngữ anh có hệ đào tạo từ xa không ạ?Vậy hệ đó mình học vào khoảng thời gian nào vậy ạ?",
+    "intent": "Updating",
+    "intent_prediction": {
+      "name": "further_education",
+      "confidence": 0.822216808795929
+    }
+  },
+  {
+    "text": "Em muốn xét học bạ trực tuyến mà sao không có ngành kế toán ạ",
+    "intent": "Updating",
+    "intent_prediction": {
+      "name": "review_transcripts",
+      "confidence": 0.8283488750457764
+    }
+  },
+  {
+    "text": "Em là dân tộc Sán Chí cải chính dân tộc thành Sán Chỉ, khi đk trên hệ thống em cần chọn dân tộc Sán Chí hay Khác ạ?Trang đầu học bạ của em vẫn là Sán Chí ạ.",
+    "intent": "Updating",
+    "intent_prediction": {
+      "name": "unkown_quests",
+      "confidence": 0.5906075835227966
+    }
+  },
+  {
+    "text": "Dạ chào trường ạ, em muốn hỏi là mình có thể dùng điểm thi của trường đại học kiến trúc Hồ Chí Minh UAH để xét tuyển môn năng khiếu không ạ? Mong trường sẽ giải đáp giúp em, em cảm ơn ạ.",
+    "intent": "Updating",
+    "intent_prediction": {
+      "name": "admissions_info",
+      "confidence": 0.9991020560264587
+    }
+  },
+  {
+    "text": "Cách nộp học phí online hệ đào tạo từ xa?",
+    "intent": "education_fee",
+    "intent_prediction": {
+      "name": "further_education",
+      "confidence": 0.8298396468162537
+    }
+  },
+  {
+    "text": "Em muốn đăng ký nghành thương mại điện tử e được 18.6 điểm thì có đủ đk đc vào trường ko ạ.",
+    "intent": "education_fee",
+    "intent_prediction": {
+      "name": "admission_score",
+      "confidence": 0.7972620129585266
+    }
+  },
+  {
+    "text": "Em muốn hỏi học phí văn bằng 2 đào tạo từ xa bao nhiêu ạ",
+    "intent": "education_fee",
+    "intent_prediction": {
+      "name": "further_education",
+      "confidence": 0.7210606336593628
+    }
+  }
+]

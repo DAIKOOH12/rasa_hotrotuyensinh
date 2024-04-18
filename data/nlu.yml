@@ -90,6 +90,7 @@ nlu:
     - What is 10 times 10?
     - can u calculate a equation
     - can u calculate
+
 - intent: graduation_time
   examples: |
     - Thời hạn tốt nghiệp của Trường Đại học Mở là bao nhiêu năm?
@@ -100,9 +101,11 @@ nlu:
     - Tôi muốn hỏi thời gian từ khi bắt đầu học đến khi kết thúc nhận bằng bao nhiêu thời gian? Và tổng kinh phí cho toàn khóa học là bao nhiêu tiền?
     - Chi em hỏi học ngành Kế toán, QTKD hay TMĐT này thì học trong bao lâu ạ và học phí như nào ạ
     - học ngành này thì học trong bao lâu ạ và học phí như nào ạ
+
 - intent: about_university
   examples: |
     - Trường Đại học Mở Hà Nội có là trường đại học công lập, bán công lập hay dân lập?
+    - Tại sao Du lịch phải mặc đồng phục vào thứ 2 và thứ 5
     - Em muốn biết thêm thông tin về trường mình ạ
     - bao giờ thì trường mình mở xét tuyển sớm bằng hình thức sử dụng kết quả thi đánh giá năng lực của đhqghn ạ
     - Các lĩnh vực khác có những ngành nào ạ
@@ -164,6 +167,7 @@ nlu:
     - Cho em hỏi ngành nn trung teg mình có xét học bạ k ạ, cho em xin điểm xét hba 3 năm gần đây ngành nn teung trường mình với ạ
     - Ngành này có xét học bạ không ạ
     - Em có nguyện vọng xét tuyển học bạ ngành ngôn ngữ trung thì em cần đạt những tiêu chí gì ạ
+    - D07 là nhập diểm 3 môn của năm học nào ạ
     - Trường đã nhận học bạ xét tuyển chưa ạ? Ngành ngôn ngữ Anh và ngành Luật Kinh Tế có xét học bạ không ạ?
     - chỉ tiêu xét học bạ trường như nào ạ
     - Em muốn xét học bạ hệ vừa học vừa làm thì xét như nào ạ
@@ -177,6 +181,7 @@ nlu:
     - Cho em xin link xét học bạ của trường mình với ạ
     - Trường xét học bạ ngành ngôn ngữ Trung bao nhiêu điểm và có nhân đôi điểm anh k ạ
     - Cho em hỏi là em muốn lấy kết quả thi năng khiếu của trường khác để xét vào trường mình thì chuẩn bị hồ sơ như thế nào ạ? Có cần phải nộp lệ phí không ạ? Em cảm ơn và mong có câu trả lời sớm nhất ạ.
+    - Bạn ơi cho mình hỏi về địa điểm học của ngành công nghệ thực phẩm là ở đâu ạ ,với lại mik muốn xét tuyển học bạ ngành này ( online ) thì xét tuyển ỏ đâu ạ mik cảm ơn
     - Dạ thầy cô cho em hỏi năm 2023 ngành ngôn ngữ anh có xét học bạ và chứng chỉ ielts không ạNếu có thì xét như thế nào ạThầy cô tư vấn giúp em với ạEm cảm ơn ạ
     - Ngành này có xét học bạ 2022 và chứng chỉ ielts không ạ
     - Có thể giải đáp giúp em ngành kế toán của Đại học mở có xét học bạ không ạ, Em cảm ơn nhiều ạ!
@@ -281,6 +286,7 @@ nlu:
     - Cho em hỏi trường mình có xét học bạ đối với ngành ngôn ngữ Anh không ạ?
     - Mình xét học bạ chỉ năm lớp 12 thôi được không ạ
     - trường có xét học bạ môn này không ạ
+    - Ngành này có xét học bạ ko ạ và xét những khối nào ạ
     - Xét học bạ tổ hợp những môn nào vậy ạBao nhiêu điểm thì được vậy ạ...
     - Em muốn hỏi điều kiện xét học bạ ngành Kế toán, Quản trị kinh doanh?
     - trường mình xét tuyển học bạ nghành luật kinh tế là bao nhiêu điểm ạ và xét tuyển 5 học kỳ hay 6 học kỳ. hạn nộp hồ sơ xét tuyên rlaf khi nào ạ?
@@ -443,9 +449,11 @@ nlu:
     - Tư vấn về ngành Luật và làm thế nào để xét học bạ hay chỉ tiêu xét học bạ ?
     - Cho em hỏi tuyển sinh xét học bạ ngành ngôn ngữ Anh hệ chính quy của trường như thế nào vậy ạ
     - cho e hỏi là hồ sơ xét tuyển e k thấy ghi là kết quả học bạ là của lớp 12 hay hay hk1 lớp 12 ak
+    - Trường cho em hỏi trường có xét học bạ nghành quản trị kinh doanh không ạ
     - Các ngành học Quản trị kinh doanh, Thương mại điện tử, Kế toán có xét học bạ không ạ?
     - Nhà trường còn nhận xét học bạ không ah
     - Nộp hồ sở sét tuyển học bạ onlion như thế nào?
+    - Em muốn xét học bạ trực tuyến mà sao không có ngành kế toán ạ
     - Ngành ngôn ngữ anh có xét học bạ không.
     - Có tuyển sinh bằng học bạ k ạ
     - Ngành này có xét học bạ không ạ
@@ -697,6 +705,7 @@ nlu:
 - intent: private_consultation
   examples: |
     - em muốn tứ vấn riêng qua zalo về trường mình và ngành nay khi em tham gia theo học tại trường
+    - bao giờ bọn em có thẻ sinh viên ngành cntt hệ vhvl ạ
     - EM có nhu cầu liên thông trái ngành từ Cao Đẳng lên ĐH Khoa Luật. Vậy em muốn dc tư vần cụ thể
     - Cần tư vấn ạ
     - Cần tư vấn ạ
@@ -706,6 +715,7 @@ nlu:
     - E cần được hướng dẫn xét tuyển online qua zalo
     - Tư vấn văn bằng 2
     - E muốn được nghe tư vấn ạ
+    - E cần tư vấn thêm
     - Tư vấn cho e ạ
     - Em được giải ba khoa học kĩ thuật vậy có được ưu tiên gì khi em đang muốn xét vào ngành kiến trúc không ạ
     - e cần tư vấn
@@ -754,7 +764,6 @@ nlu:
     - Tôi đã có bằng Trung cấp chuyên nghiệp ngành kế toàn và có xác nhận của trường về việc hoàn thành các môn học THPT (nhưng không có bằng THPT). Nay tôi muốn đăng ký học ngành luật của Đại học Mở Hà Nội có được không ạ
     - Em đang là sinh viên năm nhất ngành luật tại học viện chính sách phát triển sang năm 2 em muốn chuyển qua trường đại học mình thì phải làm những gì ạ?Em mong nhà trường giải đáp ạ
     - Em cần được tư vấn ạ
-    - E cần tư vấn ngành học kế toán hệ vừa học vừa làm
     - Em đang học cao đẳng. Em muốn chuyển sang trường mình đc ko ạ. E muốn xét học bạ ạ. E sinh năm 2005 ạ
     - Bao giờ có lớp đào tạo văn bằng 2 nghành kế toán, quản trị kinh doanh?Đào tạo từ xa hay phải học trực tuyến?Chi phí học là bao nhiêu?Thời gian học là bao lâu?Có những môn học nào?Trân trọng cảm ơn!
 - intent: skills_test_info
@@ -930,6 +939,7 @@ nlu:
     - Tôi muốn biết thêm về phương thức tuyển sinh của nghành cntt?
     - Điều kiện xét tuyển ngành tài chính ngân hàng năm 2023 là gì vậy ạ?
     - Khối d04 ngành ngôn ngữ trung yêu cầu tiếng trung đến hsk mấy ạ
+    - E thi ngành ngôn ngữ trung mà 13/5 e mới thi chứng chỉ hsk mà sau hơn một tháng mới có bản cứng, vậy nếu lúc nộp hồ sơ ko kịp thì e nộp bản mềm điểm trên website dc ko ạ
     - Khi nào có đợt tuyển sinh tiếp theo ạ?
     - ngôn ngữ trung có tuyển khối c00 không ạ?
     - Cách thức để xét ngành thiết kế đồ hoạ của trường là gì ạ
@@ -939,10 +949,14 @@ nlu:
     - Cho em hỏi điều kiện để có thể vô học nghành này ạ ?
     - Thi ngành này thì cần chuẩn bị những gì và thi theo thể thức nào ak?
     - Em học khối A có thi vào được không? Vì em thấy thông tin ngành quản trị khách sạn, ngành quản trị dịch vụ du lịch và lữ hành thì chỉ xét khối D00 thôi.
+    - cho e hỏi về việc quy đổi chứng chỉ hsk là thay cho môn tiếng anh trong tổ hợp xét tuyển hay là sao vậy ạ? và cách xét tuyển bằng cc hsk như thế nào ạ?
     - cho em phương thức xét tuyển của trường mình ạ
     - Ngành NNT của trường mình xét tuyển theo những phương thức nào vậy ạ?
+    - Cho em xin thông tin về tuyển sinh ĐH từ xa ngành luật kinh tế
     - Em muốn hỏi về phương thức xét tuyển và điều kiện để đỗ vào trường ạ
     - em có một vài câu hỏi về điều kiện xét tuyển ngành này ạ
+    - Tôi muốn đăng ký cho con vào Ngôn ngữ Anh đại học mở Hà Nội thì đăng ký nguyện vọng như thế nào?
+    - Cho mình hỏi về việc thời gian nhận chứng chỉ ngoại ngữ của trường để quy đổi ra điểm THPTQG với ạ. Nhà trường yêu cầu những gì để nộp kèm cùng chứng chỉ và thời gian nhận từ khi nào?
     - Em cần tư vấn tuyển sinh về ngành Kế toán, QTKD, Thương mại điện tử?
     - Cho mình biết cách xét tuyển được không ạ?
     - Đăng Ký Tuyển Sinh ạ!
@@ -970,7 +984,6 @@ nlu:
     - Điểm chuẩn có cao k ạ
     - Bao giờ thì hết hạn nộp hồ sơ ạ
     - Em muốn xin tư vấn tuyển sinh ngành tự động hóa ạ!
-    - em muốn tìm hiểu thêm về ngành này của trường mình và tiêu chí của ngành
     - Chào thầy , cô ạ . Năm nay em có nguyện vọng xét tuyển ngành luật kinh tế trường mình . Em muốn hỏi là ngành này có tuyển sinh theo phương thức xét học bạ không . Nếu có thì không biết là quy trình đăng kí xét tuyển như nào ạ.
     - Thưa thầy cô phương thức xét tuyển ngành này như nào vậy ạ?
     - E đã chuẩn bị đầy đủ hồ sơ để đăng ký liên thông, nhà trường cho e hỏi phương thức để nộp lệ phí xét tuyển với ạ. Em cảm ơn
@@ -982,7 +995,6 @@ nlu:
     - Em muốn chọn ngành kế toán mà không thấy
     - Cho mình hỏi khi chọn ngành thiết kế công nghiệp thì mình có thể thi theo hình thức xét theo điểm thi THPTQG không? Và mình có cần phải thi vẽ để xét vào ngành thiết kế công nghiệp không ạ?Giải đáp kỹ hộ em ạ!
     - Em cần làm những gì để xét tuyển vào trường
-    - Ngành này có xét học bạ ko ạ và xét những khối nào ạ
     - Xin được tư vấn xét tuyển
     - Cách tuyển sinh ,điểm thi ngành ngôn ngữ Trung
     - Em muốn hỏi ngành thương mại điện tử này tầm bao điểm học bạ thì đỗ ạ
@@ -1089,7 +1101,6 @@ nlu:
     - Em muốn đăng kí tham gia thi nhanh thiết kế nội thất, thì đăng kí bằng cách nào ạ
     - Ngành thiết kế công nghiệp của trường đại học mở hà nội có cần phải thi năng khiếu không ạ?
     - Ngành thiết kế đồ họa có xét tuyển khối D(văn,toán,anh) không ạ
-    - Trường cho em hỏi trường có xét học bạ nghành quản trị kinh doanh không ạ
     - Cho em hỏi về thông tin tuyển sinh
     - xét tuyển sinh có những hình thức nào ạ
     - xét tuyển sinh có những hình thức nào ạ
@@ -1137,12 +1148,10 @@ nlu:
     - Sao để xét tuyển
     - Em đã tốt nghiệp tc kiến trúc muốn liên thông đào tạo từ xa ngành luật thì được không ạ
     - 1.Cho em hỏi là khi em quy đổi điểm theo chứng chỉ ngoại ngữ thì em sử dụng điểm đó khi xét tuyển đúng k ạ?2. Mã phương thức tuyển sinh khi e hết hợp giữa điểm chứng chỉ ngoại ngữ với bài thi THPT là gì ạ?3. Khi e nộp chứng chỉ e có cần đến theo giờ cố định nào không ạ ?E cảm ơn
-    - Anh / chị cho em hỏi là ở phần xét tuyển bằng ĐGNL CỦA ĐHQGHN ấy ạ Có ghi 2 phong bì là gồm 1 phong bì để kết quả 1 phong bì để phiếu đăng ký hay là cả 2 bỏ chubg vào 1 phong bì ạ
     - Xin chào ban tuyển sinh, tôi là phụ huynh cháu Phạm Ngọc Hà, cháu đang ký xét tuyển bằng hình thức học bạ.1- Điểm thi năng khiếu lấy kết quả thi năng khiếu từ trường khác, khi đăng ký trên onlien tôi nhập tạm nhập 5 điểm năng khiếu để cập nhật được trên onlien. Sau khi có kết quả cháu nộp bổ xung trong HS ạ.2- Lệ phí xét tuyển nộp thế nào ạ, xin ban tuyển sinh hướng dẫn tôi nộp để hoàn thành thủ tục đăng kýXin cảm ơn
     - Em muốn tìm hiểu nghành kiến trúc, thiết kế nội thất, thiết kế đồ hoạ
     - Mình là học sinh lớp 12, mình có chứng chỉ HSK3 , mình muốn dự tuyển vào trường khoa tiếng trung. thời gian và thủ tục như nào ,xin quý trường cho mình xin thông tin
     - Cách tính điểm thi đại học của ngành tiếng Trung là gì vậy ạ.
-    - E cần tư vấn thêm
     - Muốn xét vào trường đại học mở hà nôi
     - cho e hỏi là khu vực trên tuyển sinh là khớp với khu vực tại địa chỉ thường trú phải không ạ?
     - Câu hỏi liên quan đến xét tuyển bằng kết quả thi dgnl, dgtd:Trong hồ sơ gồm có:+ Bản sao chứng thực các giấy tờ liên quan phù hợp chứng minh để thí sinh được hưởng điểm ưu tiên khu vực, đối tượng. Vậy nếu như đang thuộc kv2-nt thì phải dùng bản sao của giấy tờ nào
@@ -1347,7 +1356,6 @@ nlu:
     - Ngành thiết kế đồ hoạ năm nay xét DO1 đúng không ạ
     - Muốn đăng ký chuyên ngành thiết kế đồ họa của trường thì làm như thế nào? Ngành thiết kế công nghiệp của trường có 3 chuyên ngành. Rất mong được tư vấn. Xin cảm ơn.
     - em muốn hỏi khi đăng ký nguyện vọng trên cổng thông tin thì ko có mục chi tiết đăng ký phương thức xét tuyển(ví dụ như em muốn đăng ký phương thức xét tuyển mã 405 và tổ hợp xét tuyển H00) thì cần phải làm thêm thao tác gì ạ
-    - Mình muốn tư vấn học ngành thiết kế đồ họa
     - Ngành quản trị kinh doanh nhà trường có bắt buộc thứ tự nguyện vọng ko ạ
     - Em muốn đăng ký xét tuyển ạ
     - Cho em hỏi thứ tự nguyện vọng giới hạn của ngành luật và luật quốc tế là bao nhiêu ạ
@@ -1357,7 +1365,6 @@ nlu:
     - nghành này xét khối B00 , A00 . Nhưng e không thi mấy môn đó thì đăng kí kiểu gì ạ
     - Hướng dẫn em cách đăng kí tuyển sinh tại trường ạ
     - trường cho e hỏi e có cần phải ĐKXT trên web của trường k ạ hay chỉ cần ĐK trên hệ thống của Bộ ạ
-    - 22 điểm có vào ngành luật kinh tế đc ko ạ
     - Sau khi đặt nguyện vọng trên hệ thống và đã nộp lệ phí xét tuyển thì em có cần phải nộp hồ sơ tới trường không ạ, và bao giờ thì trường sẽ công bố điểm chuẩn và kết quả trúng tuyển thí sinh dùng kết quả thi ththpt ạ ?
     - tôi muốn nộp hồ sơ
     - Nếu đặt nguyện vọng của trường rồi thì có cần phải nộp thêm hồ sơ không ạ ?
@@ -1486,6 +1493,7 @@ nlu:
     - Em chào thầy cô ạ. Thầy cô có thể cho em được biết là ngành Công nghệ sinh học của trường mình có liên quan đến kỹ thuật máy móc của mảng y tế không ạ. Em xin hết. Em cảm ơn thầy cô ạ
     - Trong đề án tuyển sinh, trường HOU có ghi :”Nếu không kịp tham gia thi năng khiếu do trường HOU tổ chức, có thể thi ở trường khác và nộp kết quả cho HOU, hạn 30/06/2023”. Tuy nhiên, trường Mỹ thuật Công nghiệp em làm bài sẽ bắt đầu thi ngày 8,9/7/2023, ảnh hưởng tới việc nộp điểm cho HOU đúng hạn. Em thắc mắc trường mình có ngoại lệ hay quy định nào khác phù hợp với nhiều học sinh thi năng khiếu vẽ nơi khác như bọn em không ạ? Em xin cảm ơn.
     - Em muốn xét tuyển học bạ ngành thiết kế đồ họa nhưng trong mục điền điểm THXT của phiếu đăng ký (em muốn xét khối H01) có môn hình họa, em không biết mục đó bỏ trống và điền điểm Toán Văn thôi hay như nào ạ? Vì nộp hồ sơ các thứ xong mới thi năng khiếu nên em hơi hoang mang xíu ạ.
+    - Em chào thầy cô,Em là sinh viên năm thứ 4 của trường Đại học Bách Khoa Hà Nôi, em có nguyện vọng muốn đăng kí học thêm ngành ngôn ngữ Anh của trường mình. Em muốn nhờ thầy cô tư vấn giúp em, em nên lựa chọn chương trình học như thế nào cho phù hợp ạ, vì em thấy trường đang có đào tạo từ xa và đào tạo văn bằng 2 ạ. Em mong thầy cô có thể tư vấn giúp em về lựa chọn, cũng như thủ tục để có thể đăng kí học ạ (Hiện tại em chưa hoàn thành chương trình học tại Đại học Bách Khoa, còn 1 năm ạ). Em cảm ơn thầy cô rất nhiều ạ. Mong thầy cô có thể giải đáp giúp em ạ.
     - Cho e hỏi ,trường mình năm nay ngành kế toán có lấy điểm cao ko ạ
     - E có một người bạn quốc tế muốn học trường mình không biết trường mình có chương trình nào phù hợp cho bạn ý không ạ? Hy vọng được trả lời sớm ạ
     - cho em hỏi là ngành này có được nhân đôi tiếng anh không ạnộp học bạ là vào luôn được không ạ hay phải dựa trên kết quả thi tốt nghiệp ?
@@ -1506,12 +1514,18 @@ nlu:
   examples: |
     - cho em hỏi là chương trình đào tạo từ xa của trường yêu cầu đầu vào những gì ạ ?
     - Em tên Thành, hiện tại đang sinh sống và làm việc tại Thành phố Hồ Chí Minh. Em có nguyện vọng học văn bằng 2 ngành Luật tại Trường Đại học Mở Hà Nội bằng hình thức đào tạo từ xa. Mong ad tư vấn giúp em. Em cảm ơn ạ./.
+    - thông tin xét tuyển đào tạo văn bằng 2
+    - Chào nhà trường, em đã tốt nghiệp Đại học ngành Truyền thông Đa phương tiện. GPA: 7.42 - Khá. Em tốt nghiệp ở Sài Gòn, dân tộc Hoa. Em muốn học tiếp VB2. Tuy nhiên với học lực này có khả năng xét tuyển ngành Ngôn ngữ Trung Quốc không ạ? Nếu được thì em cần nộp hồ sơ gì cho nhà trường.
+    - bao giờ bọn em có thẻ sinh viên ngành cntt hệ vhvl ạ
     - chương trình đào tạo trực tuyến văn bằng 2 ngôn ngữ anh
+    - Chương trình đào tạo văn bằng 2 chuyên ngành kế toán trong bao lâu vậy ạ ? Em muốn xin mẫu đăng ký xét tuyển của nhà trường ạ
     - Em đã tốt nghiệp văn bằng 1 trường đại học công đoàn năm 2020Em muốn học văn bằng 2 Khoa Ngôn ngữ Anh của trường mình , bên mình tuyển sinh theo hình thức xét duyệt đúng ko ạ, em muốn xin thủ tục. Và bên mình có đào tạo từ xa ko ạ? Em cảm ơn quý thầy/cô
     - Ở ninh bình có liên kết mở lớp luật kinh tế học online dạng văn bằng 2?
     - Em muốn học từ xa thì thời gian học ,học phí như thế nào ạ
     - Em là sinh viên hệ song bằng. Em mong muốn được chuyển hình thức đào tạo của ngành Kế toán từ Song bằng sang hệ Đào tạo từ xa học tại Quảng Ninh thì thủ tục như thế nào? Em cảm ơn!
+    - Mình muốn học văn bằng 2 hệ đào tạo từ xa
     - Trường có lớp học kế toán cho bằng thpt muốn học online lấy bằng đại học kh ạ?
+    - Dạ admin ơi mình muốn hỏi trường mình có hệ từ xa đúng không ạ? Vậy ngành ngôn ngữ anh có hệ đào tạo từ xa không ạ?Vậy hệ đó mình học vào khoảng thời gian nào vậy ạ?
     - E muốn dki hồ sơ tuyển sinh từ xa ạ
     - Dạ admin ơi mình muốn hỏi trường mình có hệ từ xa đúng không ạ? Vậy ngành ngôn ngữ anh có hệ đào tạo từ xa không ạ?Vậy hệ đó mình học vào khoảng thời gian nào vậy ạ?
     - e muốn học online ngành luật
@@ -1624,18 +1638,24 @@ nlu:
     - Mình đã tốt nghiệp đại học từ 2013 và hiện tại đang đi làm nên muốn đăng kí học từ xa ngành ngôn ngữ Trung. Phiền bạn cung cấp giúp mình thông tin, cảm ơn bạn rất nhiều.
     - Tư vấn giúp e vè hệ đào tạo vừa học vừa làm
     - Em cần tư vấn ngành kế toán hệ vừa học vừa làm.
+    - E cần tư vấn ngành học kế toán hệ vừa học vừa làm
 - intent: cirriculum_introduction
   examples: |
     - mình muốn hỏi về chương trình học của ngành Ngôn ngữ Trung Quốc
+    - Cho e hỏi là e hiện chưa biết gì về tiếng trung thì xét ngành này có được học từ con số 0 k ạ?
     - Dạ cho em xin 1 ít thông tin về ngành này với á
     - Em muốn tư vấn ngành ngôn ngữ tiếng trung ạ
+    - Thầy/cô cho em hỏi hệ đào tạo từ xa ngành ngôn ngữ trung thời gian bao lâu sẽ hoàn thành khóa học, học phí là bao nhiêu, tổng số tín chỉ cần thực hiện, thời gian học như thế nào ạ? Em cảm ơn quý thầy cô giải đáp thắc mắc giúp em ạ.
     - Xét vào ngành ngôn ngữ Trung thì em có cần phải có chứng chỉ từ HSK mấy trở lên không ạ ? Hay lên trường rồi bắt đầu từ số 0 ạ ? Em cảm ơn
     - Em muốn biết thêm một số thông tin về ngành quản trị khách sạn của trường ạ?
+    - - Cho em hỏi lần tuyển sinh tiếp theo của trường là bao giờ, hồ sơ cần những gì ạ?- Qúa trình học là học online hay đến trực tiếp trường ạ?- Chuẩn đầu vào và đầu ra của ngoại ngữ trường mình là bằng gì ạ?
     - Dạ. Em chào thầy cô, em muốn học văn bằng 2 Ngôn ngữ Trung Quốc, hiện tại em đang đi làm, thời gian chỉ rảnh thứ 7 và chủ nhật. Em muốn hỏi , trường mình có mở lớp văn bằng 2 tiếng Trung vào thứ 7 và chủ nhật k ạ
     - Em muốn học từ xa thì thời gian học ,học phí như thế nào ạ
     - Em muốn hỏi học ngành công nghệ thực phẩm thì chương trình đào tạo ra sao 1 năm mấy học kì và học những gì
     - muốn học chương trình đào tạo tiếng anh của Trường
     - Em muốn tìm hiểu chi tiết về chương trình đào tạo ngành thương mại điện tử và quản trị kinh doanh của trường trong năm học gần đây nhất
+    - trường có thể giải đáp giúp em, em có dự định đăng ký ngành quản trị kinh doanh của trường mình ạ, nếu trong thời gian học em muốn đổi sang ngành khác được không ạ! em cảm ơn ạ
+    - Em muốn học ngành Kế toán này nhưng ở trung tâm Đà nẵng được không ạ? có được học trực tiếp không ạ?
     - Xin chào, em cần tư vấn ngành Quản trị kinh doanh hình thức đào tạo từ xa.Em đã tốt nghiệp ngành Quản trị Khách sạn Trường Đại học Tài chính - Marketing và đang đi làm rồi.Mong sớm nhận được phản hồi từ nhà trường ạ.
     - Em muốn tìm hiểu thêm thông tin về ngành học này
     - em muốn tìm hiểu về nghành này
@@ -1644,6 +1664,7 @@ nlu:
     - admin cho em hỏi chút ạhình thức trường mình đào tạo online hay học tại các sơ sở ạ là lịch trình học như thế nào ạ,
     - Em muốn đăng ký học văn bằng hai tiếng Trung. Không biết thời gian học trong bao lâu và lịch học như thế nào?
     - Trường có đào tạo ngành công nghệ đa phương tiện không
+    - em muốn tìm hiểu thêm về ngành này của trường mình và tiêu chí của ngành
     - Ngôn ngữ anh bên mình đào tạo chuyên ngành gì ạ
     - Học phí văn bằng 2 ngôn ngữ Anh?
     - Học phí trường mình ngành ngôn ngữ anh thế nào ạ? Giáo trình giảng dạy ngành này 100% bằng tiếng anh hết ạ? Nếu như mình không giỏi tiếng anh lắm nhưng vẫn muốn học được không ạ? (Em muốn liên thông thpt đào tạo trực tuyến)
@@ -1695,6 +1716,7 @@ nlu:
     - Cho tôi xin chương trình học, thời gian học
     - Em muốn được tư vấn đăng kí ngành học ạ
     - Cho em hỏi về chương trình học và các học phần khi học chuyên ngành Quản trị kinh doanh tại trường với ạ
+    - Mình muốn tư vấn học ngành thiết kế đồ họa
     - Ngành quản trị kinh doanh bao gồm những chuyên ngành gì và năm mấy được chọn chuyên ngành
     - Học mấy năm, 1 năm mấy kì và dự kiến học phí bao nhiêu 1 kì ạ, em cảm ơn
     - Em muốn hỏi là có phải trường mình học từ sáng đến chiều học từ thứ 2 đến thứ 7 phải không ạ
@@ -1716,28 +1738,7 @@ nlu:
     - Em muốn biết về trương trình đào tạo và học phí
 - intent: Updating
   examples: |
-    - Cho e hỏi là e hiện chưa biết gì về tiếng trung thì xét ngành này có được học từ con số 0 k ạ?
-    - E thi ngành ngôn ngữ trung mà 13/5 e mới thi chứng chỉ hsk mà sau hơn một tháng mới có bản cứng, vậy nếu lúc nộp hồ sơ ko kịp thì e nộp bản mềm điểm trên website dc ko ạ
-    - Thầy/cô cho em hỏi hệ đào tạo từ xa ngành ngôn ngữ trung thời gian bao lâu sẽ hoàn thành khóa học, học phí là bao nhiêu, tổng số tín chỉ cần thực hiện, thời gian học như thế nào ạ? Em cảm ơn quý thầy cô giải đáp thắc mắc giúp em ạ.
-    - D07 là nhập diểm 3 môn của năm học nào ạ
     - Em muốn đăng kí xét điểm học bạ và điểm thi khi thi vào mỹ thuật việt nam thì đăng kí như thế nào ạ
-    - Học phí trung bình mỗi năm khoa thiết kế đồ họa là bao nhiêu
-    - Tại sao Du lịch phải mặc đồng phục vào thứ 2 và thứ 5
-    - Em chào thầy cô,Em là sinh viên năm thứ 4 của trường Đại học Bách Khoa Hà Nôi, em có nguyện vọng muốn đăng kí học thêm ngành ngôn ngữ Anh của trường mình. Em muốn nhờ thầy cô tư vấn giúp em, em nên lựa chọn chương trình học như thế nào cho phù hợp ạ, vì em thấy trường đang có đào tạo từ xa và đào tạo văn bằng 2 ạ. Em mong thầy cô có thể tư vấn giúp em về lựa chọn, cũng như thủ tục để có thể đăng kí học ạ (Hiện tại em chưa hoàn thành chương trình học tại Đại học Bách Khoa, còn 1 năm ạ). Em cảm ơn thầy cô rất nhiều ạ. Mong thầy cô có thể giải đáp giúp em ạ.
-    - thông tin xét tuyển đào tạo văn bằng 2
-    - cho e hỏi về việc quy đổi chứng chỉ hsk là thay cho môn tiếng anh trong tổ hợp xét tuyển hay là sao vậy ạ? và cách xét tuyển bằng cc hsk như thế nào ạ?
-    - Chào nhà trường, em đã tốt nghiệp Đại học ngành Truyền thông Đa phương tiện. GPA: 7.42 - Khá. Em tốt nghiệp ở Sài Gòn, dân tộc Hoa. Em muốn học tiếp VB2. Tuy nhiên với học lực này có khả năng xét tuyển ngành Ngôn ngữ Trung Quốc không ạ? Nếu được thì em cần nộp hồ sơ gì cho nhà trường.
-    - bao giờ bọn em có thẻ sinh viên ngành cntt hệ vhvl ạ
-    - Cho em xin thông tin về tuyển sinh ĐH từ xa ngành luật kinh tế
-    - - Cho em hỏi lần tuyển sinh tiếp theo của trường là bao giờ, hồ sơ cần những gì ạ?- Qúa trình học là học online hay đến trực tiếp trường ạ?- Chuẩn đầu vào và đầu ra của ngoại ngữ trường mình là bằng gì ạ?
-    - bao giờ bọn em có thẻ sinh viên ngành cntt hệ vhvl ạ
-    - Bạn ơi cho mình hỏi về địa điểm học của ngành công nghệ thực phẩm là ở đâu ạ ,với lại mik muốn xét tuyển học bạ ngành này ( online ) thì xét tuyển ỏ đâu ạ mik cảm ơn
-    - Tôi muốn đăng ký cho con vào Ngôn ngữ Anh đại học mở Hà Nội thì đăng ký nguyện vọng như thế nào?
-    - Cho mình hỏi về việc thời gian nhận chứng chỉ ngoại ngữ của trường để quy đổi ra điểm THPTQG với ạ. Nhà trường yêu cầu những gì để nộp kèm cùng chứng chỉ và thời gian nhận từ khi nào?
-    - Ngành kế toán của trường mình học phí có cao không, địa chỉ học có phải ở Nguyễn Hiền, Bách Khoa không ạ?
-    - trường có thể giải đáp giúp em, em có dự định đăng ký ngành quản trị kinh doanh của trường mình ạ, nếu trong thời gian học em muốn đổi sang ngành khác được không ạ! em cảm ơn ạ
-    - Em muốn học ngành Kế toán này nhưng ở trung tâm Đà nẵng được không ạ? có được học trực tiếp không ạ?
-    - Chương trình đào tạo văn bằng 2 chuyên ngành kế toán trong bao lâu vậy ạ ? Em muốn xin mẫu đăng ký xét tuyển của nhà trường ạ
     - Tôi muốn biết thông tin tuyển sinh và chương trình Đào tạo từ xa. Tôi đang có nhu cầu học văn bằng 2 ngành Quản trị kinh doanh. Tôi muốn học từ xa, mong khoa gửi thông tin để tôi than khảo!
     - Kính gửi Thầy Cô, em dự tính đăng ký học văn bằng 2 ngành ngôn ngữ anhem có một vài câu hỏi thắc mắc sau:+ Thời gian học toàn khóa là bao lâu ( em đã có bằng đại học ngành sư phạm toán)+ học trực tuyến hay học trực tiếp (em phải học bao nhiêu môn)+ Học phí toàn khóa học tầm bao nhiêu tiền ạ+ em không tìm được "phiếu đăng ký xét tuyển đại học" để điền và đăng ký học, thầy cô gửi cho em qua mail vớidưới đây là câu hỏi của emem xin chân thành cảm ơn
     - Em chào thầy cô,Em là sinh viên năm thứ 4 của trường Đại học Bách Khoa Hà Nôi, em có nguyện vọng muốn đăng kí học thêm ngành ngôn ngữ Anh của trường mình. Em muốn nhờ thầy cô tư vấn giúp em, em nên lựa chọn chương trình học như thế nào cho phù hợp ạ, vì em thấy trường đang có đào tạo từ xa và đào tạo văn bằng 2 ạ. Em mong thầy cô có thể tư vấn giúp em về lựa chọn, cũng như thủ tục để có thể đăng kí học ạ (Hiện tại em chưa hoàn thành chương trình học tại Đại học Bách Khoa, còn 1 năm ạ). Em cảm ơn thầy cô rất nhiều ạ. Mong thầy cô có thể giải đáp giúp em ạ.
@@ -1772,7 +1773,6 @@ nlu:
     - Em tốt nghiệp năm 2018 mong nhà trường làm hồ sơ sét tuyển cho em
     - E đang muốn đăng ký xét tuyển liên thông từ cao đẳng lên đại học nhưng không tìm thấy phiếu đăng ký xét tuyển. ( e vào theo link chỉ dẫn nhưng không tìm thấy)Thầy cô cho e hỏi biểu mẫu đăng ký xét tuyển lấy ở đâu ạ.E cảm ơn.
     - 
-    - Mình muốn học văn bằng 2 hệ đào tạo từ xa
     - Em đã có 1 bằng đại học và muốn đăng ký học hệ “Văn Bằng 2 chính quy cho người đã có bằng ĐH”. Thầy/ cô cho em hỏi: 1. Học phí của hệ đào tạo này là bao nhiêu?2. Tổng phải học bao nhiêu tín chỉ ạ? Mong thầy/ cô giải đápEm xin cảm ơn
     - Tư vấn cho mình thời gian, địa điểm, học phí và lịch học chi tiết để học văn bằng 2 ngành ngôn ngữ anh đối với người vừa đi học vừa đi làm (mình đã có bằng đại học và thạc sy chuyên ngành kinh tế)
     - Xin chào nhà trường, năm 2013 em có học hệ cao đẳng ngành kế toán của Viện đại học mở, giờ em muốn liên thông lên đại học theo thông báo tuyển sinh số 1220 ngày 07/04/2023. Trong mục hồ sơ xét tuyển có mục phiếu đăng ký xét tuyển tải trên web, tuy nhiên em không tìm thấy mục này. Vì vậy kính đề nghị Quý trường hướng dẫn em mẫu đăng ký này ạ. Em xin cảm ơn.
@@ -1785,7 +1785,6 @@ nlu:
     - Thầy/cô cho em hỏi nếu em có bằng cao đẳng kế toán nhưng muốn học liên thông lên khoa kiến trúc hoặc thiết kế có được không ạ.
     - Tôi có thể liên hệ bản tuyển sinh hệ vhvl như thế nào
     - Em đang là sinh viên và muốn học ngành ngôn ngữ anh hệ đào tạo từ xa thì cho em hỏi là sẽ đào tạo trong bao lâu ạ?
-    - Dạ admin ơi mình muốn hỏi trường mình có hệ từ xa đúng không ạ? Vậy ngành ngôn ngữ anh có hệ đào tạo từ xa không ạ?Vậy hệ đó mình học vào khoảng thời gian nào vậy ạ?
     - Tôi có bằng CĐ Chính Quy QTKD, muốn học qua ngôn ngữ Anh thì đào tạo thời hạn bao lâu. Điều kiện để tôi được theo học là gì?Thanks,
     - Trường cho e hỏi là nếu sử dụng kết quả thi năng khiếu của trường khác để xét tuyển, thì bây giờ e cần phải nộp học bạ cho trường ko ạ?Nếu nộp học bạ thì cách thức nộp như thế nào và hạn nộp đến bao giờ ạ?
     - Học văn bằng 2 chuyên ngành Luật, những môn đã học trong chương trình học đại học trước đây mà trùng với chương trình học có được miễn học không?
@@ -1842,10 +1841,10 @@ nlu:
     - Em mong thầy/cô giải đáp giúp em chút ạ. Em đã có 1 bằng cao đẳng hệ thống điện. Hiện giờ em muốn đăng ký học thương mại điện tử của trường mình. Thầy/cô cho em hỏi sau khi học xong em có được cấp bằng đại học không ạ ? Và cho em hỏi hồ sơ đăng ký gồm những gì và nộp ở đâu ạ ? Em cảm ơn ạ
     - (1) Cho em hỏi là xét học bạ thì lấy điểm 6 học kỳ hay 5 ạ?(2) Với em muốn thi vào ngành thiết kế đồ họa theo phương thức xét học bạ mà chưa thi nên chưa có điểm năng khiếu thì bỏ trống phần điểm năng khiếu ạ?(3) Trường có nhận hồ sơ vào thứ 7, chủ nhật không ạ?
     - Ngành QT khách sạn, ngành QT dịch vụ du lịch và lữ hành, kĩ năng giao tiếp bằng tiếng anh chiếm mấy phần ạ .
-    - Em muốn xét học bạ trực tuyến mà sao không có ngành kế toán ạ
     - Em xét tuyển bằng kết quả thi đánh giá năng lực của ĐHQGHN và thấy phần hồ sơ trường mình yêu cầu '+ 02 phong bì ghi rõ họ tên, địa chỉ liên lạc, số điện thoại liên hệ của thí sinh' , trường cho em hỏi 2 phong bì là 2 tờ giấy ghi thông tin của thí sinh hay phong bì gì ạ?
     - Bản chứng chỉ có cần dịch thuật k ạ
     - Em nộp thiếu hồ sơ mà bây giờ hết hạn rồi thì còn cách nào khác không ạ?
+    - Anh / chị cho em hỏi là ở phần xét tuyển bằng ĐGNL CỦA ĐHQGHN ấy ạ Có ghi 2 phong bì là gồm 1 phong bì để kết quả 1 phong bì để phiếu đăng ký hay là cả 2 bỏ chubg vào 1 phong bì ạ
     - E đăng kí dự thi khối H06 với phương thức sử dụng kết quả thi trung học phổ thông quốc gia nhưng mà môn tiếng anh em được miễn và được điểm 10 thì trường sẽ lấy điểm như nào vậy ạ
     - #ERROR!
     - Mk muốn xem điểm chuẩn và có thể xét hok bạ hay kj ạ
@@ -1988,6 +1987,7 @@ nlu:
     - Ngành Quản trị khách sạn, ngành quản trị dịch vụ du lịch và lữ hành năm nay trường lấy bao nhiêu điểm?
     - Cho e hỏi 22 điểm có vào được ngành luật không ạ
     - Khoa ngôn ngữ anh bao nhiêu điểm thì đạt
+    - Em muốn đăng ký nghành thương mại điện tử e được 18.6 điểm thì có đủ đk đc vào trường ko ạ.
     - Em được 18.6 điểm có đủ đk vào ngành thương mại điện tử ko ạ.
     - Xin trường giới thiệu về nghành học này. Thi tốt nghiệp THPT TÔI ĐC 22,4 đ có đủ điều kiện đẻ vào khoa này không?
     - Điểm chuẩn ngành thiết kế công nghiệp năm 2023 là bao nhiêu?
@@ -2005,6 +2005,7 @@ nlu:
     - Cho em hỏi là như em thấy trong bảng điểm chuẩn năm ngoái của trường thì ngành ngôn ngữ trung phải xếp thứ tự nguyện vọng là 5 thì năm nay em muốn xét tuyến em có phải để ngành ngôn ngữ trung ở 1 trong 5 nguyện vọng đầu không ạ ?
     - Điểm chuẩn ngành Luật khố C00 là bao nhiêu điểm
     - Em muốn hỏi là nếu em đăng ký khoa tiếng Trung của trường theo tổ hợp d01 thì em sẽ nhân đôi điểm tiếng anh phải không ạ? Trên thang điểm 40.
+    - 22 điểm có vào ngành luật kinh tế đc ko ạ
     - Điểm chuẩn ngành NNA dự kiến là bao nhiêu ạ ? và khi nào trường sẽ công bố điểm chuẩn ạ
     - Điểm chuẩn xét tuyển vào ngành quản trị kinh doanh là bao nhiêu ạ?
     - Cho em hỏi muốn trả cứu kết quả trúng tuyển học bạ ở đâu ạ
@@ -2016,6 +2017,8 @@ nlu:
     - Ngành quản trị khách sạn thì tính điểm xét thpt quốc gia như nào vậy ạ
 - intent: education_fee
   examples: |
+    - Học phí trung bình mỗi năm khoa thiết kế đồ họa là bao nhiêu
+    - Ngành kế toán của trường mình học phí có cao không, địa chỉ học có phải ở Nguyễn Hiền, Bách Khoa không ạ?
     - Học phí 1 năm là bao nhiêu ạ
     - Học phí 1 năm là bao nhiêu ạ
     - Học phí 1 khoá ngành thiết kế đồ hoạ là bao nhiêu ạ?
@@ -2032,7 +2035,6 @@ nlu:
     - Cho em hỏi Học phí bao nhiêu tiền /1 tín chỉ hay bao nhiêu/năm học ạ. Trân trọng.
     - Ngành Luật có học phí như nào? Bao nhiêu chỉ tiêu?
     - Bao nhiêu điểm .đc nhập học ngành tiếng trung quốc
-    - Em muốn đăng ký nghành thương mại điện tử e được 18.6 điểm thì có đủ đk đc vào trường ko ạ.
     - Học phí khoa ngôn ngữ Trung Quốc là tính theo tín chỉ hay tính theo kỳ học ạ?
     - Mức học phí của trường là bnhiêu ạ
     - ngành cnkt đt viễn thông năm nay điểm chuẩn có tăng không trường ơi, em chỉ thi có 22,3đ mà muốn vào trường quá ạ
